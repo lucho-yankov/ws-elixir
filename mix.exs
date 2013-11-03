@@ -21,6 +21,8 @@ defmodule WsElixir.Mixfile do
     [
       {:cowboy, github: "extend/cowboy"},
       {:gproc, github: "esl/gproc"},
+      {:cowlib, github: "extend/cowlib"},
+      {:ranch, github: "extend/ranch"}
     ]
   end
 end
